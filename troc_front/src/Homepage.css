@@ -1,0 +1,63 @@
+.HomepageContainer{
+  width: 60%;
+  margin: auto;
+}
+hr{
+  margin-top: 50px;
+  width: 20%;
+}
+.productsContainer{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.product{
+  flex: 0 0 25%;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  /* border: solid red; */
+  margin:2%;
+  box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 10px rgba(0,0,0,0.2);
+  border-radius: 5%;
+  padding: 0rem 1rem;
+  background: linear-gradient(
+    to right, 
+    rgba(239, 255, 91, 0.15),
+    rgba(255, 187, 210, 0.15)
+  )
+}
+
+.product:hover{
+  transform: scale(1.1);
+  transition: ease-in 0.1s;
+  transition: ease-out 0.2s;
+ }
+
+.product a{
+  text-decoration: none;
+  color: black;
+}
+
+.imagePrice{
+  /* border: solid blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  width: 180px;
+  height: 280px;
+}
+
+.HomePageTitre {
+  margin-top: 30px;
+}
+
+.imagePrice img{
+  max-height: 220px;
+  max-width: 170px;
+  margin: auto;
+}
+

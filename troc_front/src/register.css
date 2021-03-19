@@ -1,0 +1,45 @@
+.registerForm{
+  margin-top: 10%;
+  justify-content: center;
+  width:100%;
+}
+
+input{
+  display: flex;
+  margin: auto;
+  align-items: space-around;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align:center;
+}
+
+button{
+  margin-top: 5%;
+}
+
+button:hover{
+  transform: scale(1.1);
+transition: ease-in 0.2s;
+}
+select{
+ border-radius: 10px;
+ background-color: #dd96c5; 
+ color: white;
+}
+select:hover{
+  background-color: #5deed7;
+}
+
+.submit_but{
+border-radius: 10px;
+ background-color: #dd96c5; 
+ color: white;
+}
+.submit_but:hover{
+  background-color: #5deed7;
+  cursor: pointer;
+}
+.pw_check{
+  color: red;
+}

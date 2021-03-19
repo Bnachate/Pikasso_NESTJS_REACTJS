@@ -1,0 +1,61 @@
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    background: white;
+    color: white;
+    
+  }
+  
+  .nav-links{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 50px;
+  }
+  
+  .logo{
+    height:12rem;
+    width:12rem;
+    margin-top: 50px;
+  }
+  
+  .button_login{
+    width: 8rem;
+    height: 2rem;
+    color: grey;
+    margin-left: 1rem;
+    text-align: center;
+    justify-content:center
+    
+  }
+  .button_register{
+    width: 8rem;
+    height: 2rem;
+    background-color: rgb(43, 41, 41);
+    color: rgb(224, 222, 222);
+    border-radius: 5%;
+  }
+
+  img{
+    margin-right: 5%;
+  }
+
+  .countainer404 h1{
+    color: red;
+    text-decoration: underline red;
+    font-size: 300%;
+  }
+  .linkHomepage{
+    font-size: 300%;
+    transform: 1.2s;
+  }
+  .linkHomepage:hover{
+    color:red;
+    transform: scale(2)
+  }
